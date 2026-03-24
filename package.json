@@ -1,1 +1,14 @@
-{ "name": "gasoptimizer", "version": "1.0.0", "description": "Gas Optimization Analyzer for Solidity Contracts", "main": "scripts/analyze.js", "scripts": { "analyze": "node scripts/analyze.js" }, "dependencies": {}, "devDependencies": {} }
+{
+  "name": "gasoptimizer",
+  "version": "1.0.0",
+  "description": "Gas Optimization Analyzer for Solidity Contracts",
+  "main": "scripts/analyze.js",
+  "scripts": {
+    "analyze": "forge script scripts/analyze_gas.sol --broadcast"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "forge-std": "^1.9.0"
+  }
+}
+
