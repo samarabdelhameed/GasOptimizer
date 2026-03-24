@@ -1,0 +1,1 @@
+{ "name": "gasoptimizer", "version": "1.0.0", "description": "Gas Optimization Analyzer for Solidity Contracts", "main": "scripts/analyze.js", "scripts": { "analyze": "node scripts/analyze.js" }, "dependencies": {}, "devDependencies": {} }
